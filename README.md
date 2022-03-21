@@ -11,4 +11,4 @@ In addition to learning React JS through the tutorial, I am becoming familiar wi
 If a tutorial building a movie database app sounds interesting to you, you can find Thomas's tutorial at:
 [React JS Course for Beginners](https://www.youtube.com/watch?v=nTeuhbP7wdE&t=9190s)
 and his YouTube channel at:
-[YouTube](https://www.youtube.com/channel/UCnnnWy4UTYN258FfVGeXBbg)
+[Weibenfalk](https://www.youtube.com/channel/UCnnnWy4UTYN258FfVGeXBbg)
