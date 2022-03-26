@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 //API
 import API from '../API'
 // Config
@@ -8,6 +8,7 @@ import HeroImage from './HeroImage';
 import Grid from './Grid';
 import Thumb from './Thumb';
 import SearchBar from './SearchBar';
+import Spinner from './Spinner';
 // Hook
 import { useHomeFetch } from '../hooks/useHomeFetch';
 // Image
@@ -42,6 +43,7 @@ const Home = () => {
             />
         ))}
       </Grid>
+      <Spinner />
     </>
   );
 };
