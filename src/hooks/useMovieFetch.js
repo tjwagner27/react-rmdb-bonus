@@ -22,7 +22,7 @@ export const useMovieFetch = movieId => {
         setState({
           ...movie,
           actors: credits.cast,
-          director
+          directors
         })
         
         setLoading(false);
@@ -34,5 +34,5 @@ export const useMovieFetch = movieId => {
     fetchMovie();
   }, [movieId]);
   
-  return { state, loadind, error };
+  return { state, loading, error };
 }
