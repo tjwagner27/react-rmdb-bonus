@@ -11,7 +11,7 @@ import { Wrapper, Content, Text } from './MovieInfo.styles';
 const MovieInfo = ({ movie }) => (
     <Wrapper backdrop={movie.backdrop_path}>
         <Content>
-            <Thumb 
+            <Thumb
                 image={
                     movie.poster_path ?
                     `${IMAGE_BASE_URL}${POSTER_SIZE}${movie.poster_path}` :
@@ -24,7 +24,7 @@ const MovieInfo = ({ movie }) => (
                 <h3>PLOT</h3>
                 <p>{movie.overview}</p>
 
-                <div clasName='rating-directors'>
+                <div className='rating-directors'>
                     <div>
                         <h3>RATING</h3>
                         <div className='score'>{movie.vote_average}</div>
